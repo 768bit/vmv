@@ -1,5 +1,5 @@
 {
-  "name": "vmv",
+  "name": "@768bit/vmv",
   "sideEffects": [
     "*.sass",
     "*.scss"
@@ -21,7 +21,7 @@
     "test-ssr": "cross-env BABEL_ENV=node mocha --require @babel/register test/ssr/index.js",
     "test": "npm run test-unit && npm run test-ssr",
     "lint": "eslint --ext .js,.vue src test/unit/specs",
-    "prepublishOnly": "npm run lint && npm test && npm run build"
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.47",
@@ -39,7 +39,7 @@
     "eslint": "^4.19.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-loader": "^2.0.0",
-    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-prettier": "^2.7.0",
     "eslint-plugin-vue": "^4.5.0",
     "express": "^4.16.3",
     "file-loader": "^1.1.11",
