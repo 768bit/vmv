@@ -1,5 +1,5 @@
 import withParamsBrowser from './withParamsBrowser'
-import importedWithParams from './params'
+import * as importedWithParams from './params'
 /* istanbul ignore next */
 const withParams =
   process.env.BUILD === 'web'
